@@ -16,6 +16,7 @@ class Mchyper < Formula
     system "cabal","install","parsec","hashable","MissingH"
     system "ghc","mchypertool/Main.hs","-imchypertool/","-o","mchyper"
     bin.install "mchyper"
+    bin.install "mchyper.py"
   end
 
   test do
