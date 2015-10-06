@@ -2,7 +2,7 @@ class Mchyper < Formula
   desc "Model Checker for Hyperproperties"
   homepage "https://www.react.uni-saarland.de/tools/mchyper/"
   url "https://www.react.uni-saarland.de/tools/mchyper/mchyper-0.91.tar.gz"
-  sha256 "7cc7cc2e209456dffd9c66dabc8719546fdcc9e1e3afd6b8b478e8d368342cb1"
+  sha256 "3a5bfcb5ac57d1076bc3e32061c0762bded981be329b04c57c837e04106b0be2"
   version "0.91"
 
   depends_on "ghc"
