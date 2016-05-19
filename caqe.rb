@@ -1,8 +1,8 @@
 class Caqe < Formula
   desc "CAQE is a certifying solver for quantified Boolean formulas (QBF) based on the CEGAR-based clausal abstraction algorithm"
   homepage "https://www.react.uni-saarland.de/tools/caqe/"
-  url "https://www.react.uni-saarland.de/tools/caqe/downloads/caqe-1.tar.gz"
-  sha256 "2709d145069b9be5baa1b934a9917fb5b5635cdbb61a57811e5d2e6f48415707"
+  url "https://www.react.uni-saarland.de/tools/caqe/downloads/caqe-2.tar.gz"
+  sha256 "1bfd86d849927f0e29bb9172deb8db4fe68164c8f540d6495bc2f08144de11ab"
 
   def install
     system "./configure"
